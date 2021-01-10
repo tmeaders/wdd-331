@@ -30,17 +30,17 @@ header {
 }
 
 h1 {
-    color: black;
     text-align: right;
     padding-top: 4vh;
-    padding-right: 8vw;
+    padding-right: 14vw;
 }
 
 h1 a {
-    color: black;
+    color: #FAEBD7;
     font-family: 'Lora', serif;
+    font-size: 30px;
     text-decoration: none;
-    padding-right: 4vw;
+
 }
 
 nav {
@@ -48,11 +48,10 @@ nav {
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-weight: bolder;
     color: #FAEBD7;
-    padding-right: 8vw;
+    padding-right: 10vw;
 }
 
 nav ul {
-
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -66,30 +65,28 @@ nav ul li a {
     color: #FAEBD7;
 }
 
-nav ul li.active a {
-    color: #DEB887;
-}
-
 nav ul li a:hover {
     text-decoration: underline;
     color: white;
 }
 
 hr {
-    width: 90%;
-    text-align: right;
+    width: 75%;
+    padding-left: 8vw;
+
+
 }
 
 /*-------- All of my the middle of my webpage or main css will go below ------*/
 body {
-    max-width: 100%;
-    background-color: linen;
+    width: 100%;
+    background-color: #FAEBD7;
     font-family: 'Helvetica', 'Arial', sans-serif;
     margin: auto;
 }
 
 main {
-    max-width: 1200px;
+    width: 85vw;
     justify-items: center;
     align-items: center;
     margin: auto;
@@ -99,7 +96,9 @@ main {
 Article {
     background-color: white;
     width: 100vw;
-    Height: 60vh;
+    Height: 63vh;
+    margin-top: 4vh;
+    margin-left: -2vw;
 }
 
 
