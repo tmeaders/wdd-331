@@ -32,7 +32,7 @@ header {
 h1 {
     text-align: right;
     padding-top: 4vh;
-    padding-right: 14vw;
+    transform: scaleY(1.5);
 }
 
 h1 a {
@@ -40,7 +40,13 @@ h1 a {
     font-family: 'Lora', serif;
     font-size: 30px;
     text-decoration: none;
+    padding-right: 16vw;
+   
+}
 
+h2 a {
+    text-decoration: none;
+    color: black;
 }
 
 nav {
@@ -48,7 +54,7 @@ nav {
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-weight: bolder;
     color: #FAEBD7;
-    padding-right: 10vw;
+    padding-right: 16vw;
 }
 
 nav ul {
@@ -71,8 +77,8 @@ nav ul li a:hover {
 }
 
 hr {
-    width: 75%;
-    padding-left: 8vw;
+    width: 71%;
+    padding-left: 16vw;
 
 
 }
@@ -102,7 +108,9 @@ Article {
 }
 
 
+p{
 
+}
 
 
 
