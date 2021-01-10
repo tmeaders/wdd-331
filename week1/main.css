@@ -19,7 +19,14 @@ html {
     box-sizing: border-box;
 }
 
-/*----------- google fonts --------------*/
+/*----------- large viewport display ----------------------------------------*/
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64em) {
+
+
+}
+
+/*----------- google fonts --------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 
 header {
@@ -177,22 +184,12 @@ img {
     margin-top: 4vh;
 }
 
-.large {
-    display: none;
-}
 
-.small-view {
-    padding: 35px;
-
-}
 
 
 
 /*----- All of my the bottom of my webpage or footer css will go below --------*/
-footer {
-    background-color: #00ced1;
-    font-weight: bolder;
-}
+
 
 /*-----           Clearfix: Force an Element not to collapse              -----*/
 .clearfix:after {
