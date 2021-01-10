@@ -7,116 +7,123 @@
  *                changes in IE on Windows Phone and in iOS.                  *
  *  --------------------------------------------------------------------------*/
 
- html {
+html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-  }
-  
-  /*----------- apply a natural box layout model to all elements --------------*/
-  * {
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-  }
-  
-  /*----------- google fonts --------------*/
-  @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-
-header{
-    background-color:#6495ED ;
 }
-  nav {
-  
-    background-color: #00ced1;
-    font-family: 'Roboto', sans-serif;
+
+/*----------- google fonts --------------*/
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+header {
+    background-color: #6495ED;
+    height: 25vh;
+}
+
+nav {
+    text-align: right;
+    font-family: 'Helvetica', 'Arial', sans-serif;
     font-weight: bolder;
-  }
-  
-  nav ul {
-  
+    color: #FAEBD7;
+    padding-right: 8vw;
+}
+
+nav ul {
+
     list-style-type: none;
     padding: 0;
     margin: 0;
-  
-  }
-  
-  nav ul li a {
+
+}
+
+nav ul li a {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
-    color:#FAEBD7;
-  }
-  
-  nav ul li.active a {
-    background-color: #FAEBD7;
-    color: white;
-  }
-  
-  nav ul li a:hover {
-    background-color: #87cefa;
-    color: white;
-  }
-  
+    color: #FAEBD7;
+}
 
-  /*-------- All of my the middle of my webpage or main css will go below ------*/
-  body {
+nav ul li.active a {
+    color: #DEB887;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+hr {
+    width: 90%;
+    text-align: right;
+}
+
+/*-------- All of my the middle of my webpage or main css will go below ------*/
+body {
     max-width: 100%;
     background-color: linen;
     font-family: 'Helvetica', 'Arial', sans-serif;
     margin: auto;
-  }
-  
-  main {
+}
+
+main {
     max-width: 1200px;
     justify-items: center;
     align-items: center;
     margin: auto;
     background-color: #FAEBD7;
-  }
-  
-  h1,
-  h2,
-  h3 {
+}
+
+h1 {
     color: black;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  h2 {
-    font-size: 22px;
-    font-weight: bolder;
-    border-bottom: 4px solid #bc8f8f;
-  }
-  
- 
-  
-  
-  /* ------------ this area is to be used for all images ---------------------- */
-  img {
+    font-family: 'Lora', sans-serif;
+   text-align: right;
+}
+
+h1 a {
+    color: black;
+    font-family: 'Lora', sans-serif;
+    text-decoration: none;
+    padding-right: 4vw;
+}
+
+
+
+
+
+/* ------------ this area is to be used for all images ---------------------- */
+img {
     max-width: 100%;
-  }
-  
-  .large {
+}
+
+.large {
     display: none;
-  }
-  
-  .small-view {
+}
+
+.small-view {
     padding: 35px;
-  
-  }
-  
-  
-  
-  /*----- All of my the bottom of my webpage or footer css will go below --------*/
-  footer {
+
+}
+
+
+
+/*----- All of my the bottom of my webpage or footer css will go below --------*/
+footer {
     background-color: #00ced1;
     font-weight: bolder;
-   }
-  
-  /*-----           Clearfix: Force an Element not to collapse              -----*/
-  .clearfix:after {
+}
+
+/*-----           Clearfix: Force an Element not to collapse              -----*/
+.clearfix:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-  /*------------------                   end of small           --------------------*/
+}
+
+/*------------------                   end of small           --------------------*/
