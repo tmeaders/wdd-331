@@ -20,11 +20,27 @@ html {
 }
 
 /*----------- google fonts --------------*/
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 
 header {
     background-color: #6495ED;
-    height: 25vh;
+    height: 30vh;
+    margin: -2.25vh;
+
+}
+
+h1 {
+    color: black;
+    text-align: right;
+    padding-top: 4vh;
+    padding-right: 8vw;
+}
+
+h1 a {
+    color: black;
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    padding-right: 4vw;
 }
 
 nav {
@@ -80,18 +96,12 @@ main {
     background-color: #FAEBD7;
 }
 
-h1 {
-    color: black;
-    font-family: 'Lora', sans-serif;
-   text-align: right;
+Article {
+    background-color: white;
+    width: 100vw;
+    Height: 60vh;
 }
 
-h1 a {
-    color: black;
-    font-family: 'Lora', sans-serif;
-    text-decoration: none;
-    padding-right: 4vw;
-}
 
 
 
