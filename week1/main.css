@@ -19,16 +19,13 @@ html {
     box-sizing: border-box;
 }
 
-/*----------- large viewport display ----------------------------------------*/
-/* 64em is also 1028px when basefont is 16px */
-@media only screen and (min-width: 64em) {
-
-
-}
-
 /*----------- google fonts --------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 
+/*----------- small viewport display ----------------------------------------*/
+/* 30em is also 1028px when basefont is 16px */
+
+@media only screen and (min-width: 15em){
 header {
     background-color: #6495ED;
     height: 30vh;
@@ -197,5 +194,60 @@ img {
     display: table;
     clear: both;
 }
-
+}
 /*------------------                   end of small           --------------------*/
+
+/*----------- large viewport display ----------------------------------------*/
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64em) {
+
+    body{
+        width: 100%;
+    }
+
+    header{
+        float: left;
+        width: 15%;
+        height: 140vh;
+        position:absolute;
+    }
+
+    h1{
+        text-align: left;
+        margin-left: 4vw;
+          
+            
+    }
+
+nav{
+    padding-right: 2vw;
+}
+
+    main{
+        float: right;
+        width: 85%;
+        
+    }
+article{
+    width: 33vw;
+    margin-left: 4vw;
+}
+
+hr{
+    width: 65%;
+    padding-left: 0;
+    margin-left: 3vw;
+}
+
+img{
+    width:10vw;
+    margin-left: 9vw;
+}
+
+p{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    
+}
+
+}
