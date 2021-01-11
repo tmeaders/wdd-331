@@ -24,9 +24,10 @@ html {
 
 header {
     background-color: #6495ED;
-    height: 30vh;
-    margin: -2.25vh;
+    height: 40vh;
+    margin-top: -3.5vh;
     margin-bottom: 4vh;
+    
 
 }
 
@@ -41,7 +42,7 @@ h1 a {
     font-family: 'Lora', serif;
     font-size: 30px;
     text-decoration: none;
-    padding-right: 16vw;
+    padding-right: 9vw;
 
 }
 
@@ -82,7 +83,7 @@ nav {
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-weight: bolder;
     color: #FAEBD7;
-    padding-right: 16vw;
+    padding-right: 9vw;
 }
 
 nav ul {
@@ -105,7 +106,7 @@ nav ul li a:hover {
 }
 
 hr {
-    width: 71%;
+    width: 80%;
     padding-left: 16vw;
 
 
@@ -130,8 +131,9 @@ main {
 Article {
     background-color: white;
     width: 88vw;
-    Height: 65vh;
+    Height: 78vh;
     margin-top: 4vh;
+    margin-left: 0;
 
     box-shadow: 3px 3px rgba(56, 56, 56, 0.1);
 }
@@ -195,14 +197,10 @@ img {
 /* 64em is also 1028px when basefont is 16px */
 @media screen and (min-width: 64em) {
 
-    body {
-        width: 100%;
-    }
-
-    header {
+   header {
         float: left;
         width: 15%;
-        height: 140vh;
+        height: 162vh;
         position: absolute;
     }
 
@@ -228,6 +226,7 @@ img {
     }
 
     article {
+        height: 75vh;
         width: 33vw;
         margin-left: 4vw;
     }
