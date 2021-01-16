@@ -1,0 +1,20 @@
+ /****************************************************************
+  *                                                              *
+  *   To clarify question #4, the question is referring to the   *
+  *   2nd fieldset and not the 2nd paragraph. You also need to   *
+  *   hide all of the paragraphs <p> after the 2nd fieldset      *
+  *   using css.                                                 *
+  *                                                              *
+  ****************************************************************/
+/*------------ css for question #3 --------------*/
+.help::before{
+    content: '(';
+}
+.help::after{
+    content: ')';
+}
+
+/*------------ css for question #4 --------------*/
+fieldset[title=fieldset2] p{
+    display: none;
+}

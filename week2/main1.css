@@ -1,0 +1,20 @@
+/* ***************************************************************
+ *  The second <p> of the second <fieldset> could be selected by *
+ *  either of these selectors below. Explain why the first would *
+ *  be a better option than the second.                          *
+ *                                                               *
+ *   fieldset[title=fieldset2] > p + p                           *
+ *                                                               *
+ *   fieldset:nth-of-type(2) >p + p                              *
+ *                                                               *
+ *****************************************************************/
+
+
+
+  fieldset[title=fieldset2] > p + p{
+     color: red;
+  }
+
+fieldset:nth-of-type(2) >p + p{
+    font-size: 10px;
+}
