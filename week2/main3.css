@@ -1,0 +1,100 @@
+/*--------- How many paragraphs would be affected by the selector: form >p? ---------*/
+form >p{
+    color: red;
+}
+
+/*---------- How many paragraphs would be affected by the selector: form p? ----------*/
+form p{
+    color: blue;
+}
+
+/*------------  How many elements would be selected with "span help"? ----------------*/
+span help::before{
+    content: '(' ;
+}
+
+span help::after{
+    content: ')';
+}
+
+span help{
+    color: teal;
+}
+
+/*  --------------- How many elements would be selected with “span.help"?  ------------*/
+span.help::before{
+    content: '(';
+}
+
+span.help::after{
+    content: ')';
+}
+
+span.help{
+    color: yellow;
+}
+
+/*-----  Which would NOT select the first fieldset?  ----------------------------------*/
+/*p + fieldset{
+    color: violet;
+}*/
+
+fieldset:nth-child(1){
+    color: tomato;
+}
+
+/*fieldset:first-of-type{
+    color: yellowgreen;
+}*/
+
+/*fieldset:nth-of-type(1){
+    color: brown;
+}*/
+
+/*----------- Which rule would select all fieldset tags except for the first?  ----------*/
+
+fieldset + fieldset{
+    font-size: 30px;
+}
+
+fieldset {
+    font-size: 40px;
+}
+
+fieldset:not(:first-of-type){
+    font-weight: bold;
+}
+
+/*a and c */
+
+/*  Write a CSS selector for the following rule that would turn any invalid <input>s red. */
+input::after{
+    background-color: crimson;
+}
+
+[title*=fieldset]{
+    color: purple;
+    font-style: oblique;
+}
+
+/*  For the example HTML provided, what selector would select any <input> that was 
+preceded by a label, but not an input without a label? Notice the input does not 
+necessarily follow immediately after the label.*/
+
+/*label > input{
+    background-color: darkgreen;
+}*/
+
+label + input{
+    background-color: darkgreen;
+
+}
+
+label input{
+    background-color: darkred;
+}
+
+/*label ~ input{
+    background-color: deeppink;
+}+/
+
